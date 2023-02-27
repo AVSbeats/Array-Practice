@@ -10,6 +10,12 @@ public class ArrayTest {
         arrayExample[4] = 5;
 
         System.out.println(""); // Space
-        System.out.println("This Array Number is " + arrayExample[1]);
+        System.out.println("The arrayExample for 1 is " + arrayExample[1]);
+
+        System.out.println(""); // Space
+        int[] arrayExample2 = { 1, 2, 3, 4, 5 };
+        System.out.println("The arrayExample2 for 0 is " + arrayExample2[0]);
+
+        System.out.println(""); // Space
     }
 }
