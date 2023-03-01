@@ -14,7 +14,7 @@ public class ArrayTest {
 
         System.out.println(""); // Space
         final int IncreaseByOne = 1;
-        for (int sub = 0; sub < 5; ++sub) {
+        for (int sub = 0; sub < 5; ++sub) { // Using the sub
             arrayExample[sub] += IncreaseByOne;
 
             System.out.println("After increase by one, arrayExample is " + arrayExample[sub]);
@@ -35,5 +35,12 @@ public class ArrayTest {
         System.out.println("After increase by 5, the arrayExample2 for 4 is " + arrayExample2[4]);
 
         System.out.println(""); // Space
+        System.out.print("The arrayExample3 lenght is");
+        int[] arrayExample3 = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+        for (int sub2 = 0; sub2 < arrayExample3.length; ++sub2) {
+            System.out.print(" " + arrayExample3[sub2]);
+        }
+        System.out.println(" "); // Space
+        System.out.println(" "); // Space
     }
 }
