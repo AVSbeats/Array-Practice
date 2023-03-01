@@ -35,12 +35,19 @@ public class ArrayTest {
         System.out.println("After increase by 5, the arrayExample2 for 4 is " + arrayExample2[4]);
 
         System.out.println(""); // Space
-        System.out.print("The arrayExample3 lenght is");
+        System.out.print("The arrayExample3.lenght is");
         int[] arrayExample3 = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+
+        // This is the longer version to print all arrays
         for (int sub2 = 0; sub2 < arrayExample3.length; ++sub2) {
             System.out.print(" " + arrayExample3[sub2]);
         }
         System.out.println(" "); // Space
         System.out.println(" "); // Space
+
+        // This is the shorter version to print all arrays
+        for (int value : arrayExample3) {
+            System.out.println("Using (value : arrayExample3) is " + value);
+        }
     }
 }
